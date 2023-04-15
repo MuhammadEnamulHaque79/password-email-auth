@@ -1,0 +1,27 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+.nav-container a{
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    
+}
+
+/*Responsive nav-container*/
+
+@media screen and (max-width:576px){
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+   
+}
